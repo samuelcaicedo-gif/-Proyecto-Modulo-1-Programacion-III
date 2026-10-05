@@ -32,8 +32,8 @@ def mostrar_datos(datos_df):
         "Ubicacion",
         "NombreDepartamento",
         "Edad",
-        "Estado",
         "TipoRecuperacion",
+        "Estado",        
         "PaisProcedencia"
     ]
 
@@ -43,8 +43,8 @@ def mostrar_datos(datos_df):
             datos_df.loc[registro, "ciudad_municipio_nom"],
             datos_df.loc[registro, "departamento_nom"],
             datos_df.loc[registro, "edad"],
-            datos_df.loc[registro, "estado"],
             datos_df.loc[registro, "tipo_recuperacion"],
+            datos_df.loc[registro, "estado"],            
             datos_df.loc[registro, "pais_viajo_1_nom"]
         ])
 
