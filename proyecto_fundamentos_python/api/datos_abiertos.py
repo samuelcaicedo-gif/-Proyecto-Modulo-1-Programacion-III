@@ -36,8 +36,8 @@ def filtrar_datos(datos_consultados):
         "ciudad_municipio_nom",
         "departamento_nom",
         "edad",
-        "estado",
         "tipo_recuperacion",
+        "estado",        
         "pais_viajo_1_nom"
     ]
 
