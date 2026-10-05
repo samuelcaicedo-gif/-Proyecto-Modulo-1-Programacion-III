@@ -1,7 +1,7 @@
 from prettytable import PrettyTable
 
 
-# Mostrar el encabezado inicial de la aplicación y no retornar valores.
+# Mostrar el encabezado inicial de la aplicación.
 def mostrar_mensaje_bienvenida():
     print("""
             +--------------------------------------------------------------+
@@ -22,7 +22,7 @@ def menu_principal():
     return limite_registros, nombre_departamento
 
 
-# Mostrar los resultados en una tabla y no retornar valores.
+# Mostrar los resultados en una tabla.
 def mostrar_datos(datos_df):
     # Crear la tabla de resultados con PrettyTable.
     pretty = PrettyTable()
